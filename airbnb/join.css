@@ -1,0 +1,268 @@
+body {
+  margin: 0px;
+}
+
+.modalfull {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closedmodal {
+  display: none;
+}
+
+.modalcontents {
+  border-radius: 10px;
+  background-color: white;
+  align-items: center;
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+
+  /* position: absolute;
+  top: calc(50% - 338px);
+  left: calc(50% - 284px); */
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modaltitle {
+  border-bottom: 1px solid rgb(235, 235, 235);
+  box-sizing: border-box;
+  flex-basis: auto;
+  display: flex;
+  width: 568px;
+  height: 64px;
+  padding: 0px 24px 0px 24px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.closeicon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 80px;
+  left: 460px;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.closeicon:hover {
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: peachpuff;
+}
+
+.join {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.country {
+  border: solid 1px gray;
+  padding: 12px 36px 12px 12px;
+  font-size: 12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.korea {
+  font-size: 16px;
+}
+
+.number {
+  color: gray;
+  padding: 16px 36px 16px 12px;
+  border: gray solid 1px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.arm {
+  font-size: 12px;
+  padding: 10px 0px 16px 0px;
+  color: gray;
+}
+
+.continue {
+  background-color: hotpink;
+  width: 520px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  transition-duration: 1s;
+}
+
+.continue:hover {
+  background-color: pink;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.solid {
+  border-color: hotpink;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 12px;
+}
+
+.or {
+  padding: 10px;
+  font-size: 10px;
+  color: gray;
+}
+
+.email {
+  box-sizing: border-box;
+  border: solid 2px grey;
+  margin-top: 16px;
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  width: 520px;
+  height: 48px;
+}
+
+.email:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.emailimg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 480px;
+}
+
+.join-facebook {
+  box-sizing: border-box;
+  border: solid 2px grey;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  width: 520px;
+  height: 48px;
+}
+
+.join-facebook:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.facebookicon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 480px;
+}
+
+.google {
+  box-sizing: border-box;
+  border: solid 2px grey;
+  margin-top: 16px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  width: 520px;
+  height: 48px;
+  display: flex;
+}
+
+.google:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.googleicon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  position: absolute;
+  left: 480px;
+}
+
+.apple {
+  box-sizing: border-box;
+  border: solid 2px grey;
+  margin-top: 16px;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 12px;
+  border-radius: 10px;
+  width: 520px;
+  height: 48px;
+  display: flex;
+}
+
+.apple:hover {
+  border-color: black;
+  cursor: pointer;
+}
+
+.appleicon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 480px;
+}
+
+.alreadyall {
+  display: flex;
+  padding-top: 16px;
+}
+
+.already {
+  font-size: 14px;
+  color: grey;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  padding-left: 5px;
+}
+
+.login:hover {
+  cursor: pointer;
+}
+
+.modaltext {
+  box-sizing: border-box;
+  height: 612px;
+  padding: 24px;
+  width: 568px;
+  display: flex;
+  flex-direction: column;
+
+  border-top: none;
+}
